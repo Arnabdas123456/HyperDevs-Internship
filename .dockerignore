@@ -1,0 +1,38 @@
+# Node.js specific ignores
+
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Git and IDE files
+.git/
+.gitignore
+.idea/
+.vscode/
+*.swp
+
+# Environment files (except the production one)
+.env
+.env.local
+.env.development
+
+# Build and cache directories
+dist/
+build/
+.cache/
+.turbo/
+
+# Test and coverage reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Documentation
+docs/
+*.md
+!README.md  # Keep README.md
+
+# Misc
+.DS_Store
+*.zip
+*.tar.gz
